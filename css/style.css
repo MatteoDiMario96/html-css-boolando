@@ -13,7 +13,7 @@ nav {
     align-items: center;
     background-color: #ff6900;
 
-    padding: 1.5rem 2rem;
+    padding: 1rem 3rem;
 }
 
 main {
@@ -31,6 +31,10 @@ nav ul > li {
     font-size: .9rem;
 }
 
+nav img {
+    width: 10%;
+}
+
 div.row {
     display: flex;
 
@@ -38,6 +42,7 @@ div.row {
 }
 div.row article{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     width: calc((100% / 3) - 1rem);
     padding: .5rem 1rem;
@@ -54,12 +59,12 @@ article img {
 }
 
 .bottom-left {
-    bottom: 2rem;
+    bottom: 5rem;
     left: 1.06rem;
 }
 
 .bottom-left2 {
-    bottom: 2rem;
+    bottom: 5rem;
     left: 3.5rem;
 }
 
@@ -93,4 +98,29 @@ article img {
 .font-cuore {
     font-size: 1.2rem;
     padding: .2rem .6rem;
+}
+
+
+.fa-regular,
+.fa-solid {
+    color: white;
+}
+
+
+article h1 {
+    font-size: .5rem;
+    padding-top: .2rem;
+    font-weight: 100;
+}
+
+article h2{
+    font-size: .9rem;
+    text-transform: uppercase;
+    padding-top: .1rem;
+
+}
+
+article span {
+    font-size: .6rem;
+    font-weight: 100;
 }
