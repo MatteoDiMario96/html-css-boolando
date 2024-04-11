@@ -7,6 +7,14 @@
 body {
     font-family: sans-serif;
 }
+
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -17,7 +25,7 @@ nav {
 }
 
 main {
-    padding: 3rem 10rem;
+    padding: 7rem 10rem;
 }
 
 footer {
@@ -181,6 +189,6 @@ article.product:hover .img{
     display:inline-block
 }
 
-article.product:hover .love{
+div.love:hover {
     color: red;
 }
