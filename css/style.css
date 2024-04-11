@@ -168,3 +168,19 @@ div.sezione-collegamenti-footer {
 footer a {
     padding-right: .5rem;
 }
+
+.no-display {
+    display: none;
+}
+
+article.product:hover img{
+    display: none;
+}
+
+article.product:hover .img{
+    display:inline-block
+}
+
+article.product:hover .love{
+    color: red;
+}
